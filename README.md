@@ -54,10 +54,15 @@ The matching system is a cohesive, multi-stage NLP pipeline:
 
 
 | **Language** | Python (3.9+) | Core development language. |
+
 | **Embedding** | `BioClinicalBERT` | Domain-specific semantic vector generation. |
+
 | **LLM** | `FLAN-T5-base` | Contextual generation and report summary. |
+
 | **Vector Index** | `FAISS` | High-speed similarity search indexing. |
+
 | **DL Framework** | PyTorch / Hugging Face | Deep Learning foundation. |
+
 | **Explainability** | `LIME`, `SHAP` | Providing model transparency and trust. |
 
 
@@ -67,9 +72,4 @@ The matching system is a cohesive, multi-stage NLP pipeline:
 * Python 3.9+
 * A Hugging Face API key (optional, depending on deployment setup)
 
-### Usage Example
 
-To run the matching process against a sample patient profile:
-
-```bash
-python match.py --patient-file data/sample_patient_profile.json
