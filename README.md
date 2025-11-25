@@ -71,3 +71,9 @@ The matching system is a cohesive, multi-stage NLP pipeline:
 
 * Python 3.9+
 * A Hugging Face API key (optional, depending on deployment setup)
+
+## By :
+
+PES2UG22CS384 - Parvathi P
+PES2UG22CS416 - Princia DSouza
+PES2UG22CS422 - Raashi Bafna
